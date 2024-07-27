@@ -1,0 +1,101 @@
+
+<!-- saved from url=(0022)http://127.0.0.1:8000/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./127.0.0.1_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+
+	body{
+		background-color: #fd7e14b0;
+	}
+
+	input{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+	}
+
+	input::placeholder {
+	  color: #d3d3d3;
+	}
+
+	.submit{
+		background-color: #6BA3E8;
+	}
+
+	.center-column{
+		width:600px;
+		margin: 20px auto;
+		padding:20px;
+		background-color: #fff;
+		border-radius: 3px;
+		box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+	}
+
+	.item-row{
+		background-color: #906abd;
+		margin: 10px;
+		padding: 20px;
+		border-radius: 3px;
+		color: #fff;
+		font-size: 16px;
+		box-shadow: 0px -1px 10px -4px rgba(0,0,0,0.75);
+	}
+
+	.btn-danger{
+		background-color: #ffae19;
+		border-color: #e59400;
+	}
+
+</style>
+
+</head><body><div class="center-column">
+
+	<form method="POST" action="http://127.0.0.1:8000/">
+		<input type="hidden" name="csrfmiddlewaretoken" value="kuuPoPCwOxQUA3jFBofWip7NYVmo6Fd2gg7wUcvZYqIwI6WgAWFPrqSGeyio0prm">
+		<input type="text" name="title" placeholder="Add new Task..." required="" id="id_title">
+		<input class="btn btn-info" type="submit" name="Create Task">
+	</form>
+
+	<div class="todo-list">
+
+	
+		<div class="item-row">
+			<a class="btn btn-sm btn-info" href="http://127.0.0.1:8000/update_task/2/">Update</a>
+			<a class="btn btn-sm btn-danger" href="http://127.0.0.1:8000/delete/2/">Delete</a>
+
+			
+			<strike>dohomwork</strike>
+			
+		</div>
+	
+		<div class="item-row">
+			<a class="btn btn-sm btn-info" href="http://127.0.0.1:8000/update_task/3/">Update</a>
+			<a class="btn btn-sm btn-danger" href="http://127.0.0.1:8000/delete/3/">Delete</a>
+
+			
+			<span>kk</span>
+			
+		</div>
+	
+		<div class="item-row">
+			<a class="btn btn-sm btn-info" href="http://127.0.0.1:8000/update_task/7/">Update</a>
+			<a class="btn btn-sm btn-danger" href="http://127.0.0.1:8000/delete/7/">Delete</a>
+
+			
+			<strike>koku</strike>
+			
+		</div>
+	
+		<div class="item-row">
+			<a class="btn btn-sm btn-info" href="http://127.0.0.1:8000/update_task/9/">Update</a>
+			<a class="btn btn-sm btn-danger" href="http://127.0.0.1:8000/delete/9/">Delete</a>
+
+			
+			<strike>jujijo</strike>
+			
+		</div>
+	
+	</div>
+</div>
+</body></html>
